@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>buy-a-brick</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="buy a brick namibia, buy, brick, standard, bank, donate, build, house">
+    <meta name="description" content="buy a brick">
+    <meta name="author" content="Code Masters">
+    
+    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+    
+    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+    
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!---->
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script>
+    function send() {
+      var b = document.getElementById("btn-input").value;
+      var a = document.getElementById("btn-input").value;
+      document.getElementById("sent_msg").innerHTML = b;
+      
+      if(a !=""){
+        if(a=="Hi?"){
+        document.getElementById("received_msg").innerHTML = "Hello there, how can we help you?";
+        }else if(a=="What are your contact details?"){
+        document.getElementById("received_msg").innerHTML = "Telephone: +0816580385, Email: info@buyabrick.com.na";
+        }else if(a=="Thank you."){
+        document.getElementById("received_msg").innerHTML = "Welcome.";
+        }else if(a=="Bye."){
+        document.getElementById("received_msg").innerHTML = "Bye, have a nice day.";
+        }else{
+        document.getElementById("received_msg").innerHTML = "We are processing your message, We will get back to you as soon as posible.";
+        }
+        document.getElementById("btn-input").value = "";
+        
+      }else{
+        document.getElementById("received_msg").innerHTML = "";
+      }
+    };
+    </script>
+    
+    <!-- =======================================================
+      Theme Name: Bell
+      Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
+      Author: BootstrapMade.com
+      Author URL: https://bootstrapmade.com
+    ======================================================= -->
+  </head>
+  
+  <body>
+    <!-- Page Content
+    ================================================== -->
+    <!-- Hero -->
+     <header id="header">
+        <div class="container">
+        
+          <div id="logo" class="pull-left">
+            <a href="index.html"><img src="images/logo.jpg" alt="" title="" /></img></a>
+            <!-- Uncomment below if you prefer to use a text image -->
+            <!--<h1><a href="#hero">Bell</a></h1>-->
+          </div>
+            
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Donate</a></li>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#donationDrum">Donation drums</a></li>
+              <li><a href="index.html#contact">Contact Us</a></li>
+              <li class="menu-has-children"><a href="">More</a>
+                <ul>                  
+                  <li><a href="index.html#aim">Aim</a></li>
+                  <li><a href="index.html#donor">Donors</a></li>
+                  <li><a href="index.html#projects">Projects</a></li>
+                  <li><a href="#">Home Builder</a></li>
+                  <li><a href="index.html#gallery">Gallery</a></li>
+                  <li><a href="index.html#subscribe">Subscibe</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </nav><!-- #nav-menu-container -->
+          
+          <nav class="nav social-nav pull-right hidden-sm-down">
+            <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#contact"><i class="fa fa-envelope"></i></a>
+          </nav>
+        </div>
+      </header><!-- #header -->
+
+    <section class="portfolio" id="gallery">
+      <div class="container text-center">
+        <h2>
+          Donors
+        </h2>
+
+        <p>
+          
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-1.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Help the shack dwellers
+                  </h3>
+
+                  <p class="card-text">
+                    We appreciate you contribution to this initiative.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-2.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-3.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-4.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-5.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-6.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-7.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card card-block">
+              <a ><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Portfolio -->
+    <!-- Team -->
+
+    <section >
+      
+      <div class="container">
+      <div class="row chat-window col-xs-5 col-md-3" id="chat_window_1" style="margin-right:10px;">
+          <div class="col-xs-12 col-md-12">
+            <div class="panel panel-default">
+                  <div class="panel-heading top-bar">
+                      <div class="col-md-8 col-xs-8">
+                          <h3 class="panel-title"><span class="glyphicon glyphicon-comment"></span> Live Chat</h3>
+                      </div>
+                      <div class="col-md-4 col-xs-4" style="text-align: right;">
+                          <a href="#"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a>
+                          <a href="#"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1"></span></a>
+                      </div>
+                  </div>
+                  <div class="panel-body msg_container_base">
+            <div class="row msg_container base_receive">
+                          <div class="col-md-2 col-xs-2 avatar">
+                              <img src="" class=" img-responsive ">
+                          </div>
+                          <div class="col-md-10 col-xs-10">
+                              <div class="messages msg_receive">
+                                  <p>Hi the welcome. How can we help you?</p>
+                                  <time datetime="2009-11-13T20:00">Admin • 1 min</time>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row msg_container base_sent">
+                          <div class="col-md-10 col-xs-10">
+                              <div class="messages msg_sent">
+                                  <p id="sent_msg"></p>
+                                  <time datetime="2009-11-13T20:00">You • 1 min</time>
+                              </div>
+                          </div>
+                          <div class="col-md-2 col-xs-2 avatar">
+                              <img src="" class=" img-responsive ">
+                          </div>
+                      </div>
+                      <div class="row msg_container base_receive">
+                          <div class="col-md-2 col-xs-2 avatar">
+                              <img src="" class=" img-responsive ">
+                          </div>
+                          <div class="col-md-10 col-xs-10">
+                              <div class="messages msg_receive">
+                                  <p id="received_msg"></p>
+                                  <time datetime="2009-11-13T20:00">Admin • 1 min</time>
+                              </div>
+                          </div>
+                      </div>                   
+                  </div>
+                  <div class="panel-footer">
+                      <div class="row input-group">
+                          <input type="text" id="btn-input" class="form-control input-sm chat_input" placeholder="Write your message here..." />
+                          
+                          <span class="input-group-btn">
+                            <button class="btn btn-primary btn-sm" onclick="send()" id="btn-chat">Send</button>
+                          </span>
+                      </div>
+                  </div>
+          </div>
+          </div>
+      </div>
+
+    </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-xs-12 col-lg-offset-5">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <img src="images/Standard 1.png">
+                </li>
+
+                <li class="list-inline-item">
+                  <img src="images/shackdwellers.png">
+                </li>
+
+                <li class="list-inline-item">
+                  <img src="">
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+              <p class="copyright-text">
+                © Buy A Brick
+              </p>
+              <div class="credits">
+                  <!-- 
+                  
+                -->
+                <a href="#">Buy A Brick</a> by Code Masters
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a> <!-- JavaScript
+
+
+    <!-- Required JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/tether/js/tether.min.js"></script>
+    <script src="lib/stellar/stellar.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/easing/easing.js"></script>
+    <script src="lib/stickyjs/sticky.js"></script>
+    <script src="lib/parallax/parallax.js"></script>
+    <script src="lib/lockfixed/lockfixed.min.js"></script>
+    
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="js/custom.js"></script>
+    
+    <script src="contactform/contactform.js"></script>
+    
+  </body>
+</html>
